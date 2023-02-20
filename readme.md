@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Intro
 
-This is a more full-featured Next.js example project using `react-notion-x`, with the most important code in [`pages/[pageId].tsx`](./examples/full/pages/%5BpageId%5D.tsx) and [`components/NotionPage.tsx`](./components/NotionPage.tsx). You can view this example [live on Vercel](https://react-notion-x-demo.transitivebullsh.it).
+This is a more full-featured Next.js example project using `react-notion-x`, with the most important code in [`pages/[pageId].tsx`](./examples/full/pages/%5BpageId%5D.tsx) and [`components/NotionPage.tsx`](./components/NotionPage.tsx). You can view this example [live on Vercel](https://notes.clark.today/).
 
 Config can be found in [`lib/config.ts`](./lib/config.ts)
 
@@ -41,9 +41,3 @@ This demo uses [next/image](https://nextjs.org/docs/api-reference/next/image) as
 Note that preview image generation can be very slow, so it's recommended that you either cache the results in a key-value database or disable it by setting `previewImagesEnabled` to `false` in [`lib/config.ts`](./lib/config.ts)
 
 Note that custom images will only be enabled if either the image has a valid preview image defined for its URL, or if you set `forceCustomImages` to `true`.
-
-## License
-
-MIT © [Travis Fischer](https://transitivebullsh.it)
-
-Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
