@@ -1,8 +1,8 @@
 // TODO: change these to your own values
 // NOTE: rootNotionSpaceId is optional; set it to undefined if you don't want to
 // use it.
-export const rootNotionPageId = 'a4190a304b92402fa1618be35593b3fd'
-export const homePageId = 'a11720590ebd4c9bbbfc53ac7fbe162f'
+export const rootNotionPageId = 'a4190a304b92402fa1618be35593b3fd' // The primary Notional page all other pages are nested under.
+export const homePageId = 'a11720590ebd4c9bbbfc53ac7fbe162f' // Use the same as the above or specify a cerain page to act as your home page.
 export const rootNotionSpaceId = undefined
 
 // NOTE: having this enabled can be pretty expensive as it re-generates preview
